@@ -1,15 +1,15 @@
 %define		edition	city
 %define		geoname	City
-%define		mver	2026-06
+%define		mver	2026-08
 Summary:	DB-IP IP to City Lite - free IP geolocation database
 Summary(pl.UTF-8):	DB-IP IP to City Lite - darmowa baza danych miast dla geolokalizacji IP
 Name:		dbip-%{edition}-lite
-Version:	20260601
+Version:	20260801
 Release:	1
 License:	CC-BY-4.0
 Group:		Applications/Databases
 Source0:	https://download.db-ip.com/free/%{name}-%{mver}.mmdb.gz
-# Source0-md5:	d2461267fa02a82dd2db2ddd78af8a39
+# Source0-md5:	d0aa33e9811fb6c455fc23b379e0babe
 URL:		https://db-ip.com/db/lite.php
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
